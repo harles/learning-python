@@ -7,6 +7,8 @@ def parandatud_tulemus(vigane_tulemus_m, mõõteparandus_cm):
     tegelik_tulemus = round(vigane_tulemus_m + mõõteparandus_cm/100, 2)
     return tegelik_tulemus
 
+print(parandatud_tulemus(1.1, 35))
+
 
 class MyTest(unittest.TestCase):
     def test_tulemus_standardväärtused(self):
