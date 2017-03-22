@@ -4,4 +4,4 @@ python:
 # command to install dependencies
 # install: "pip install -r requirements.txt"
 # command to run tests
-script: python3 -m unittest discover -s "nadal_0" -p "n0*"
+script: python3 -m unittest discover -s "programmeerimise_alused_II/nadal_0" -p "n0*"
