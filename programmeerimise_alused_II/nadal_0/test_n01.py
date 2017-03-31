@@ -1,6 +1,6 @@
 # Moodultestid üleasndele n01
 import unittest
-from n01 import parandatud_tulemus
+from nadal_0.n01 import parandatud_tulemus
 
 class MyTest(unittest.TestCase):
     def test_tulemus_standardväärtused(self):
