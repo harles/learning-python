@@ -1,4 +1,5 @@
-# Arvestusülessanne - lõime pikuse arvutamine
+# Arvestusülessanne 8.1 - lõime pikuse arvutamine
+# Example input file: delta_vaibad.txt
 
 def lõimede_pikkus(vaiba_pikkus, lõimede_arv):
     # Ülesande püstituses ette antud konstandid
@@ -6,7 +7,7 @@ def lõimede_pikkus(vaiba_pikkus, lõimede_arv):
     CONST_OTSADEVARU      = 0.5
 
     # Arvutame lõimede kogupikkuse ja ümardame sentimeetri täpsusega (2 komakohta)
-    lõimede_kogupikkus = round((vaiba_pikkus * CONST_KOKKUTÕMBE_KOMP + CONST_OTSADEVARU) * lõimede_arv, 2) 
+    lõimede_kogupikkus = round((vaiba_pikkus * CONST_KOKKUTÕMBE_KOMP + CONST_OTSADEVARU) * lõimede_arv, 2)
 
     return lõimede_kogupikkus
 
