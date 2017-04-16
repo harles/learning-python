@@ -1,4 +1,4 @@
-# Moodultestid üleasndele n21
+# Moodultestid üleasndele n22
 import unittest
 from nadal_2.n22 import on_bingo_tabel
 from nadal_2.n22 import kontrolli_veergu
