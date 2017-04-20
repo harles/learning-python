@@ -1,6 +1,7 @@
 # Kolmanda nädala 1. ülesanne
 # Allikas: https://moodle.ut.ee/mod/vpl/view.php?id=304040
 
+
 def symbolite_sagedus(sisend):
     koond = {}
 
