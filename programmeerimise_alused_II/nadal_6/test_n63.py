@@ -3,7 +3,7 @@ import unittest
 from nadal_6.n63 import pikim_pikkus
 
 
-class PikimPikkus(unittest.TestCase):
+class PikimPikkusTest(unittest.TestCase):
 
     def test_tulemus_naide1(self):
         self.assertEqual(pikim_pikkus([1, 2, 3]), 3)
